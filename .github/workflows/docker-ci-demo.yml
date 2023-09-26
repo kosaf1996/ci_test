@@ -15,7 +15,7 @@ jobs:
         id: docker_meta 
         uses: crazy-max/ghaction-docker-meta@v1
         with: 
-          images: leecloudo/nodejs-ci 
+          images: kosaf1996/ci-test 
           tag-semver: | 
             {{version}}
             {{major}}.{{minor}}
